@@ -15,7 +15,7 @@ import hy.core
 import hy.macros
 import hy.reader
 
-from hy.version import __version__ as hy_version
+from hy import __version__ as hy_version
 from hy.compiler import hy_compile, HyASTCompiler
 from metakernel import MetaKernel
 
